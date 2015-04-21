@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Apoorva Patel - Assignment 6</title>    
+    <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css">
+    <script src="js/Exam2problem.js" type="text/javascript"></script>    
+</head>
+<body>    
+    <section id="inputSel" class="sectionZero">
+        <select id="sectionMenu" onchange="showSection()">
+            <option value="SectionZero"></option>
+            <option value="sectionOne">Get All Categories</option>
+            <option value="sectionTwo">Create Category</option>
+            <option value="sectionThree">Update Category Description</option>
+            <option value="sectionFour">Delete Category</option>
+            <option value="sectionFive">About</option>
+        </select>
+    </section>
+    <section>
+        <section id="sectionOne" class="sectionOne" style="visibility: hidden;">            
+        </section>
+        <section id="sectionTwo" class="sectionTwo" style="visibility: hidden;">
+            <table>
+                <tr><td>Category Name</td><td><input type="text" id="catName"/></td></tr>
+                <tr><td>Description</td><td><input type="text" id="catDescription" /></td></tr>
+                <tr><td>&nbsp;</td><td><input type="submit" value="Create Category" onclick="createCategory()"/></td></tr>            
+            </table>
+        </section>
+        <section id="sectionThree" class="sectionThree" style="visibility: hidden;">
+            <table>
+                <tr><td>Category ID</td><td><input type="text" id="catID"/></td></tr>
+                <tr><td>Description</td><td><input type="text" id="catDescriptionChange" /></td></tr>
+                <tr><td>&nbsp;</td><td><input type="submit" value="Update Category" onclick="updateCategory()"/></td></tr>            
+            </table>
+        </section>
+        <section id="sectionFour" class="sectionFour" style="visibility: hidden;">
+            <table>
+                <tr><td>Category ID</td><td><input type="text" id="catIDtoDel"/></td></tr>
+                <tr><td>&nbsp;</td><td><input type="submit" value="Delete Category" onclick="deleteCategory()"/></td></tr>
+            </table>                        
+        </section>
+        <section id="sectionFive" class="sectionFive" style="visibility: hidden;">
+            <h3>Apoorva Patel</h3>
+            <ul>
+                <li>email: apatel0001@gmail.com</li>
+                <li>Phone: 678-852-7716</li>
+                <li>Course: IS 633</li>                
+            </ul>            
+        </section>
+    </section>    
+</body>
+</html>

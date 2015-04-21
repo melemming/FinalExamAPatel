@@ -1,0 +1,53 @@
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sectionZero {    
+    padding: 5px 5px 5px 5px;
+}
+.sectionOne {    
+    background-color: #F5BCA9;
+    color: #000000;            
+    padding: 5px 5px 5px 5px;
+    display: inline;    
+    position:absolute;
+    left: 0;
+}
+.sectionTwo {    
+    background-color: #F2F5A9;
+    color: #000000;    
+    padding: 5px 5px 5px 5px;
+    display: inline;
+    position:absolute;    
+    left: 0;    
+}
+.sectionThree {    
+    background-color: #9FF781;
+    color: #000000;            
+    padding: 5px 5px 5px 5px;
+    display: inline;
+    position:absolute;    
+    left: 0;    
+}
+
+.sectionFour {    
+    background-color: #A9F5F2;
+    color: #000000;            
+    padding: 5px 5px 5px 5px;
+    display: inline;
+    position:absolute;
+    left: 0;    
+}
+
+.sectionFive {    
+    background-color: #F781D8;
+    color: #000000;            
+    padding: 5px 5px 5px 5px;
+    display: inline;
+    position:absolute;    
+    left: 0;    
+}
+
+input.customerID {
+  text-transform: uppercase;
+}
